@@ -59,9 +59,13 @@ Repositorio público en GitHub:
 
 ## 📸 Capturas de pantalla
 
-![Pantalla principal](medios/captura-index.png)  
-![Agenda de turnos](medios/captura-turnos.png)  
-![Profesionales](medios/captura-podologas.png)  
+_(opcional: podés agregar imágenes del sitio una vez subido a GitHub, para que se vean en el README)_  
+
+Ejemplo de sintaxis:
+
+```markdown
+![Pantalla principal](medios/captura-index.png)
+![Agenda de turnos](medios/captura-turnos.png)
 
 ---
 

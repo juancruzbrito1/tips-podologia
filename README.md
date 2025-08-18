@@ -59,10 +59,13 @@ Repositorio público en GitHub:
 
 ## 📸 Capturas de pantalla
 
-_(opcional: podés agregar imágenes del sitio una vez subido a GitHub, para que se vean en el README)_  
+![Pantalla principal](medios/captura-index.png)  
+![Agenda de turnos](medios/captura-turnos.png)  
+![Profesionales](medios/captura-podologas.png)  
 
-Ejemplo de sintaxis:
+---
 
-```markdown
-![Pantalla principal](medios/captura-index.png)
-![Agenda de turnos](medios/captura-turnos.png)
+## ✨ Autoría
+
+- Proyecto desarrollado por **Brito, Juan Cruz**.  
+- Año académico: **2025**.  

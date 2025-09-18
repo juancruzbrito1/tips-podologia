@@ -1,0 +1,80 @@
+// Paleta
+$violeta-oscuro: #6a1b9a;
+$violeta-claro: #d6c2e6;
+
+// Navbar
+.navbar {
+  background-color: $violeta-oscuro !important;
+  .navbar-brand,
+  .nav-link {
+    color: #fff !important;
+  }
+  .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
+
+// Hero y títulos
+h1, h2, h3 {
+  color: $violeta-oscuro;
+}
+
+// Accordion
+.accordion-button {
+  background-color: $violeta-claro;
+  color: darken($violeta-oscuro, 20%);
+  font-weight: 600;
+
+  &:not(.collapsed) {
+    background-color: $violeta-oscuro;
+    color: #fff;
+  }
+  &:focus {
+    box-shadow: none;
+    border-color: $violeta-oscuro;
+  }
+}
+
+.accordion-body {
+  background: #fff;
+  border-left: 4px solid $violeta-oscuro;
+}
+
+// Card de profesionales
+.profesional-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+  img {
+    width: 160px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+
+    &:hover { transform: scale(1.05); }
+  }
+
+  h3 {
+    color: $violeta-oscuro;
+    margin-bottom: 0.3rem;
+  }
+
+  p {
+    margin: 0.2rem 0;
+    color: #444;
+  }
+}
+
+// Footer
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
